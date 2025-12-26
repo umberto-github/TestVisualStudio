@@ -1,0 +1,90 @@
+## .NET Core / .NET 5+ ##
+bin/
+obj/
+out/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Visual Studio ##
+.vs/
+.vscode/
+*.dbmdl
+*.psess
+*.vspx
+*.vspscc
+*.vssscc
+*.cache
+*.log
+*.tlog
+*.pdb
+*.pidb
+*.svclog
+*.scc
+
+## NuGet Packages ##
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+*.ps1
+*.psm1
+
+## Build Results ##
+[Dd]ebug*/
+[Rr]elease*/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+*.dll
+*.exe
+
+## Rider ##
+.idea/
+*.sln.iml
+
+## ASP.NET ##
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## Others ##
+*.swp
+*.bak
+*.tmp
+*.orig
+*.rej
+*.sln.ide
+*.sln.cache
+*.sln.docstates
+*.sln.ide
+
+## Environment files ##
+.env
+.env.*
+
+## Test Results ##
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+## Publish ##
+publish/
+*.publish.xml
+
+## Docker ##
+Dockerfile.*
+docker-compose.*
+.dockerignore
+
+## Node.js (if using frontend assets) ##
+node_modules/
+npm-debug.log
+yarn-error.log
